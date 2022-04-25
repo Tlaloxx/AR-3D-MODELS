@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SPROOCH AR</title>
   <link rel="icon" href="assets/rubik.png">
@@ -15,11 +15,10 @@
 </head>
 
 <body>
-  <p style="color:rgb(255, 0, 191);"> Escanea la carta azul de Sprooch </p>
-  <img src="assets/a_marker.png" alt="sprooch" width="200" height="190">
+  <p style="color:rgb(255, 0, 191);"> Modelos 3D Sprooch </p>
+  <img src="assets/rubik.png" alt="sprooch" width="200" height="190">
 
-  <a-scene mindar-image="imageTargetSrc: assets/prueba.mind; maxTrack: 2"
-    color-space="sRGB" loading-screen="dotsColor: yellow; backgroundColor: blue"
+  <a-scene mindar-image="imageTargetSrc: /assets/markers/prueba.mind; maxTrack: 2" color-space="sRGB"
     renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
     device-orientation-permission-ui="enabled: false">
     <!-- COLOCAR AQUI MARCADOR archivo.mind-->
@@ -42,7 +41,6 @@
   </a-scene>
 
 </body>
-
 </html>
 
 
