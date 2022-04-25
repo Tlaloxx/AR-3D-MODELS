@@ -18,7 +18,10 @@
   <h3 style="color:rgb(255, 238, 0);"> Modelos 3D Sprooch </h3>
   <img src="assets/rubik.png" alt="sprooch" width="120" height="120">
 
-  <a-scene mindar-image="imageTargetSrc: /assets/prueba.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+  <a-scene mindar-image="imageTargetSrc: /assets/markers/prueba.mind; maxTrack: 2" color-space="sRGB"
+    renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
+    device-orientation-permission-ui="enabled: false">
+    <!-- COLOCAR AQUI MARCADOR archivo.mind-->
 
     <a-assets>
       <a-asset-item id="one" src=" /assets/robot/scene.gltf"></a-asset-item>
@@ -39,6 +42,7 @@
 
 </body>
 </html>
+
 
 
 
