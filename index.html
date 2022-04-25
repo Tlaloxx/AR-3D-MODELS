@@ -18,7 +18,8 @@
   <p style="color:rgb(255, 0, 191);"> Escanea la carta azul de Sprooch </p>
   <img src="assets/a_marker.png" alt="sprooch" width="200" height="190">
 
-  <a-scene mindar-image="imageTargetSrc: assets/prueba.mind; maxTrack: 2" color-space="sRGB"
+  <a-scene mindar-image="imageTargetSrc: assets/prueba.mind; maxTrack: 2"
+    color-space="sRGB" loading-screen="dotsColor: yellow; backgroundColor: blue"
     renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
     device-orientation-permission-ui="enabled: false">
     <!-- COLOCAR AQUI MARCADOR archivo.mind-->
@@ -35,7 +36,7 @@
     </a-entity>
 
     <a-entity mindar-image-target="targetIndex: 1">
-      <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="1 1 1" src="#two" animation-mixer>
+      <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="0.5 0.5 0.5" src="#two" animation-mixer>
     </a-entity>
 
   </a-scene>
@@ -43,4 +44,5 @@
 </body>
 
 </html>
+
 
